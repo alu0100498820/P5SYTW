@@ -4,8 +4,8 @@
   "description": "Grado de Ingenieria Informatica. SYTW. Practica:Temperature Converter5",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js",
-    "view": "open http://localhost:8080/"
+    "test": "nodejs index.js",
+    "view": "open http://10.6.128.95:8080/"
   },
   "repository": {
     "type": "git",
