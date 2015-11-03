@@ -1,4 +1,4 @@
-  <html>
+<html>
     <head>
        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
        <title>JavaScript Temperature Converter</title>
@@ -28,33 +28,11 @@
            <td><span class="output" id="converted"></span></td>
          </tr>
        </table>
-        <button id="boton" onclick="startWorker()">Start Worker</button>
-    
-     
-        <script>
-          var w;
-            function startWorker() {
-                if(typeof(Worker) !== "undefined") {
-                    if(typeof(w) == "undefined") {
-                        w = new Worker("temperatura.js");
-                    }
-                    w.onmessage = function(event) {
-                        document.getElementById("result").innerHTML = event.data;
-                    };
-                } else {
-                    document.getElementById("result").innerHTML = "Sorry! No Web Worker support.";
-                }
-            }
-            function stopWorker() { 
-                w.terminate();
-                w = undefined;
-            }
-        </script>
 
        <div id="footer">
          <hr>
           <P Align="center">
-            Grado de Ingeniería Informática --- Asignatura: Sistemas y Tecnologías Web </p>
+            Grado de Ingeniería Informática -- Asignatura: Sistemas y Tecnologías Web </p>
           <P Align="center">
             Alumno: Borja Barrera Villagrasa </p>
 
