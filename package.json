@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/alu0100498820/P5SYTW/issues"
   },
-  "homepage": "https://github.com/alu0100498820/P5SYTW#readme"
+  "homepage": "https://github.com/alu0100498820/P5SYTW#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
