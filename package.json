@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
+    "view": "open http://localhost:8080/"
   },
   "repository": {
     "type": "git",
