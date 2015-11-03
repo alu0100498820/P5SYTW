@@ -22,5 +22,8 @@
   "homepage": "https://github.com/alu0100498820/P5SYTW#readme",
   "dependencies": {
     "express": "^4.13.3"
+    "ejs": "*",
+    "body-parser": "~1.12.2",
+    "express-ejs-layouts": "~2.0.0"
   }
 }
