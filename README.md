@@ -18,11 +18,6 @@
   * http://alu0100498820.github.io
 
 
-> *Enlace web:*
-
-  * http://alu0100498820.github.io/P5SYTW
-
-
 > *Despliegue de la Aplicación en el IAAS*
 
   * http://10.6.128.95:8080/index.html
