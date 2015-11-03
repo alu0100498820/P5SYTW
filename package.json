@@ -1,0 +1,22 @@
+{
+  "name": "p5sytw",
+  "version": "1.0.0",
+  "description": "Grado de Ingenieria Informatica. SYTW. Practica:Temperature Converter5",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alu0100498820/P5SYTW.git"
+  },
+  "keywords": [
+    "regexp"
+  ],
+  "author": "Borja Barrera Villagrasa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0100498820/P5SYTW/issues"
+  },
+  "homepage": "https://github.com/alu0100498820/P5SYTW#readme"
+}
