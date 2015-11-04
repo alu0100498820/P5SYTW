@@ -20,4 +20,4 @@
 
 > *Despliegue de la Aplicación en el IAAS*
 
-  * http://10.6.128.95:8080/index.html
+  * http://10.6.128.95:8080
