@@ -7,18 +7,16 @@
    <p Align="center">Conviertidor de grados celcius a grados fahrenheit y de grados fahrenheit a grados celcius</p>
    </br>
     <div>
-        <form action="/" method="post">
-        <table>
-          <tr>
-           <th>> Introduzca Temperatura (ejemplos: 32F, 45C, -8E-25C, -2.5f, 2.3e5F):</th>
-           <td><input type="text" name= "ini_temp" placeholder="32F o 7.5e2c" size="50" autofocus onchange=""/></td>
-          </tr>
-          <tr>
-           <div id="converted">
-             Temperatura convertida: <%= resultado %>. <br>
-           </div>
-          </tr> 
-        </table>
+     <form action="/" method="post">
+     <table>
+       <tr>
+        <th>> Introduzca Temperatura (ejemplos: 32F, 45C, -8E-25C, -2.5f, 2.3e5F):</th>
+        <td><input type="text" name= "ini_temp" placeholder="32F o 7.5e2c" size="50" autofocus onchange=""/></td>
+       </tr>
+     </table>
+     <div id="converted">
+      Temperatura convertida: <%= resultado %>. <br>
+     </div>
     </div>
     <div id="footer">
      <hr>
